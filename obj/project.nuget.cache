@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iL4o0+tZq70=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\karum\\Desktop\\0Vscode\\c#\\RaylibCS\\learning\\learning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karum\\.nuget\\packages\\raylib-cs\\7.0.1\\raylib-cs.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
