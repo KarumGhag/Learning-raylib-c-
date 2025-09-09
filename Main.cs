@@ -1,10 +1,22 @@
 using Raylib_cs;
+using System.Numerics;
+
 using GlobalInfo;
+using CircleEntityClass;
+using System.Reflection.Metadata;
 
 namespace MainRay;
 
 public class Main
 {
+
+    List<CircleEntity> circleEntities = new List<CircleEntity>();
+
+    public Main()
+    {
+        CircleEntity entity = new CircleEntity(Global.CENTER, 50, Color.Blue, circleEntities);
+    }
+
     public void Start()
     {
         Raylib.InitWindow(Global.WIDTH, Global.HEIGHT, Global.NAME);
@@ -14,7 +26,9 @@ public class Main
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.LightGray);
 
-            Raylib.DrawText("Hello, world!", 12, 12, 20, Color.Black);
+            foreach (CircleEntity circle in circleEntities) circle.Draw();
+
+
 
             Raylib.EndDrawing();
         }
