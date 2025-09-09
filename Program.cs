@@ -1,5 +1,6 @@
-﻿using HelloWorld;
+﻿using MainRay;
 
-MainRaylib mainRaylib = new MainRaylib();
+Main main = new Main();
 
-mainRaylib.Main();
+main.Start();
+

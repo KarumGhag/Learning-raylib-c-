@@ -1,19 +1,18 @@
 using Raylib_cs;
+using GlobalInfo;
 
-namespace HelloWorld;
+namespace MainRay;
 
-public class MainRaylib
+public class Main
 {
-    // STAThread is required if you deploy using NativeAOT on Windows - See https://github.com/raylib-cs/raylib-cs/issues/301
-    [STAThread]
-    public void Main()
+    public void Start()
     {
-        Raylib.InitWindow(800, 480, "Hello World");
+        Raylib.InitWindow(Global.WIDTH, Global.HEIGHT, Global.NAME);
 
         while (!Raylib.WindowShouldClose())
         {
             Raylib.BeginDrawing();
-            Raylib.ClearBackground(Color.White);
+            Raylib.ClearBackground(Color.LightGray);
 
             Raylib.DrawText("Hello, world!", 12, 12, 20, Color.Black);
 
