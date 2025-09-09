@@ -20,3 +20,4 @@ C:\Users\karum\Desktop\0Vscode\c#\RaylibCS\learning\obj\Debug\net9.0\refint\lear
 C:\Users\karum\Desktop\0Vscode\c#\RaylibCS\learning\obj\Debug\net9.0\learning.pdb
 C:\Users\karum\Desktop\0Vscode\c#\RaylibCS\learning\obj\Debug\net9.0\learning.genruntimeconfig.cache
 C:\Users\karum\Desktop\0Vscode\c#\RaylibCS\learning\obj\Debug\net9.0\ref\learning.dll
+C:\Users\karum\Desktop\0Vscode\c#\RaylibCS\learning\obj\Debug\net9.0\learning.sourcelink.json

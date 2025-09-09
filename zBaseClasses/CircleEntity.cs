@@ -7,7 +7,7 @@ namespace CircleEntityClass;
 
 public class CircleEntity
 {
-    Vector2 position;
+    public Vector2 position;
     Color colour;
     int radius;
 

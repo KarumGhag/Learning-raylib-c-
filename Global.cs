@@ -9,6 +9,7 @@ public static class Global
     public static int WIDTH = 1920;
     public static int HEIGHT = 1080;
     public static Vector2 CENTER = new Vector2(WIDTH / 2, HEIGHT / 2);
+    public static float deltaTime;
     
 
 }
